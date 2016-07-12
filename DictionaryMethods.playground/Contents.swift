@@ -46,6 +46,10 @@ let godfatherFilms = [
 
 
 // UPDATING KEYS
+print("Movies before Godfather \(movies)")
+movies.updateValue(godfatherFilms, forKey: "The Godfather")
+print(movies)
+
 
 let result1 = movies.updateValue(godfatherFilms, forKey: "The Godfather")
 let result2 = movies.updateValue(fastAndFuriousFilms, forKey: "The Fast and the Furious")
